@@ -52,7 +52,7 @@ st.markdown("""
 try:
     API_KEY = st.secrets["GOOGLE_API_KEY"]
 except:
-    API_KEY = "AIzaSyAj4GQaJlbwdmwz3g2OGZHCwT6WlG7eWPY" 
+    API_KEY = "" 
 
 genai.configure(api_key=API_KEY)
 
@@ -338,4 +338,5 @@ def main():
     elif mode == "⚔️ Судебный Тренажер": render_court_simulator()
 
 if __name__ == "__main__":
+
     main()
