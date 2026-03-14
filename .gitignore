@@ -1,0 +1,9 @@
+.env
+*.wav
+*.mp3
+*.ogg
+*.m4a
+__pycache__/
+*.pyc
+*.docx
+legal_os.db
