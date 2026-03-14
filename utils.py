@@ -33,7 +33,7 @@ def configure_genai():
 def get_model():
     """Возвращает модель Gemini."""
     configure_genai()
-    return genai.GenerativeModel('models/gemini-2.0-flash')
+    return genai.GenerativeModel('models/gemini-2.5-flash')
 
 
 def extract_text_from_file(uploaded_file):
